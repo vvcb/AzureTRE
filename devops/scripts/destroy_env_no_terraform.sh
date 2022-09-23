@@ -9,7 +9,7 @@
 
 set -o errexit
 set -o pipefail
-# set -o xtrace
+set -o xtrace
 
 function usage() {
     cat <<USAGE
